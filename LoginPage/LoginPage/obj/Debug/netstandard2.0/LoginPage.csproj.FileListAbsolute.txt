@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\bin\Debug\netstandard2.0\LoginPage.deps.json
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\bin\Debug\netstandard2.0\LoginPage.dll
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\bin\Debug\netstandard2.0\ref\LoginPage.dll
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\bin\Debug\netstandard2.0\LoginPage.pdb
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\LoginPage.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\LoginPage.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\LoginPage.AssemblyInfo.cs
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\LoginPage.dll
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\ref\LoginPage.dll
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\LoginPage.pdb
+C:\Users\admin\source\repos\LoginPage\LoginPage\LoginPage\obj\Debug\netstandard2.0\HomePage.xaml.g.cs

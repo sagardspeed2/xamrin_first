@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LoginPage.HomePage">
+
+    <ContentPage Title="Main" IconImageSource="home.png" BackgroundColor="#2bcbff">
+        <ContentPage.Content>
+            <StackLayout Padding="20" Margin="0, 80, 0, 0">
+                <Label x:Name="appusername" FontSize="Medium" HorizontalOptions="Center"/>
+                <Entry Placeholder="Username"/>
+                <Entry Placeholder="Password" IsPassword="True" />
+                <Entry Placeholder="Age" Keyboard="Numeric" />
+                <Entry Placeholder="Mobile" Keyboard="Telephone" />
+                <Entry Placeholder="Email" Keyboard="Email" />
+                <Label Text="Address" FontSize="Medium" />
+                <Editor HeightRequest="150"/>
+                <Button Text="Sign Up" BackgroundColor="White" TextColor="Black" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Second" BackgroundColor="Brown">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Don't have an account?" ForegroundColor="White" FontSize="Large" FontAttributes="None" />
+                            <Span Text="Click here" ForegroundColor="Yellow" FontSize="Large" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Third" BackgroundColor="DarkOrange">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Dispire" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>

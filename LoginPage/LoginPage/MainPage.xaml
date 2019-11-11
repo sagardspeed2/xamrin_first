@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d"
+             x:Class="LoginPage.MainPage"
+             BackgroundColor="#2ccbff"
+             Title="Login">
+
+    <ContentPage.Content>
+        <StackLayout x:Name="mainstack">
+            <StackLayout Padding="20" Margin="0, 80, 0, 0">
+                <Label Text="Username" TextColor="Black" />
+                <Entry Text="" Placeholder="Username" x:Name="username"/>
+                <Label Text="Password" TextColor="Black" />
+                <Entry Text="" Placeholder="Password" IsPassword="True" x:Name="password"/>
+                <DatePicker x:Name="date" MaximumDate="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='{0:MMMM dd, yyyy}'}" MinimumDate="2000/12/31"/>
+                <TimePicker x:Name="time"/>
+                <Picker x:Name="country" Title="Select Country">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>India</x:String>
+                            <x:String>China</x:String>
+                            <x:String>Canada</x:String>
+                            <x:String>London</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                </Picker>
+                <Button Text="Login" BackgroundColor="White" TextColor="#2ccbff" Clicked="LoginBtn" />
+                <Label Text="Not a Member? Sign Up Now..." TextColor="Gray" HorizontalOptions="Center"/>
+                <Label Text="Forgot Password?" TextColor="Gray" HorizontalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
